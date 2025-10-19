@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ml-project
+Version: 0.0.1
+Author: raibhaskar
+Author-email: iamraibhaskar@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
