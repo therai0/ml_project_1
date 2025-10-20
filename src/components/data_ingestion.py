@@ -4,7 +4,8 @@ from src.exception import CustomException
 from src.logger import logging
 import pandas as pd 
 from sklearn.model_selection import train_test_split
- 
+from src.components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformationConfig
 from dataclasses import dataclass
 
 
@@ -37,16 +38,13 @@ class DataIngestion:
             test_set.to_csv(self.ingestion_config.test_data_path,index=False,header=True)
             logging.info("Ingestion of data is completed")
             return(
-                self.ingestion_config.train_data_path,
+                self.ingestion_config.train_data_path, 
                 self.ingestion_config.test_data_path,
             )
+#    When we crate the object and call this initiate_data_ingestoin method it will return the 
+# two value that is train data path and test data path
         except Exception as e:
             raise CustomException(e,sys)
-
-if __name__ == "__main__":
-    d = DataIngestion()
-    d.initiate_data_ingestion()
-
 
 '''
 Here in every line there is a loggin message to know about the where code is getting excuted
@@ -55,3 +53,10 @@ logging.info()
 Importing the CustomException
 
 '''
+
+if __file__ == "__main__":
+    obj = DataIngestion()
+    train_data,test_data = obj.initiate_data_ingestion()
+    data_transformation = DataTransformation()
+    data_transformation.initiate_data_transformation(train_data,test_data)
+
