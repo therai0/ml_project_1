@@ -1,0 +1,5 @@
+2025-10-20 16:11:01,594 160 numexpr.utils INFO NumExpr defaulting to 8 threads.
+2025-10-20 16:11:40,971 22 root INFO Enter the data ingestion conponent or method
+2025-10-20 16:11:40,973 25 root INFO Read the dataset as dataframe
+2025-10-20 16:11:40,975 28 root INFO Train test splited
+2025-10-20 16:11:40,978 32 root INFO Ingestion of data is completed
