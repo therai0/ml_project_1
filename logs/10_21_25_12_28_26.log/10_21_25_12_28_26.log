@@ -1,0 +1,10 @@
+2025-10-21 12:28:26,621 160 numexpr.utils INFO NumExpr defaulting to 8 threads.
+2025-10-21 12:28:27,236 28 root INFO Enter the data ingestion conponent or method
+2025-10-21 12:28:27,238 33 root INFO Read the dataset as dataframe
+2025-10-21 12:28:27,239 36 root INFO Train test splited
+2025-10-21 12:28:27,242 40 root INFO Ingestion of data is completed
+2025-10-21 12:28:27,243 63 root INFO Read train and test data
+2025-10-21 12:28:27,243 45 root INFO Numericals columns Standard scaling completed
+2025-10-21 12:28:27,243 46 root INFO Categorical columns encoding completed
+2025-10-21 12:28:27,243 73 root INFO Appling the preprocessing in the both train and test dataset
+2025-10-21 12:28:27,250 84 root INFO Saving preprocessing object
