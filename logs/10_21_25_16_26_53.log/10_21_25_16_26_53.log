@@ -1,0 +1,12 @@
+2025-10-21 16:26:53,571 28 root INFO Enter the data ingestion conponent or method
+2025-10-21 16:26:53,574 32 root INFO Read the dataset as dataframe
+2025-10-21 16:26:53,577 37 root INFO Train test splited
+2025-10-21 16:26:53,580 43 root INFO Ingestion of data is completed
+2025-10-21 16:26:53,582 66 root INFO Read train and test data
+2025-10-21 16:26:53,582 48 root INFO Numericals columns Standard scaling completed
+2025-10-21 16:26:53,582 49 root INFO Categorical columns encoding completed
+2025-10-21 16:26:53,583 75 root INFO Appling the preprocessing in the both train and test dataset
+2025-10-21 16:26:53,590 89 root INFO Saving preprocessing object
+2025-10-21 16:26:53,592 32 root INFO Spliting trainig and test data
+2025-10-21 16:26:53,593 51 root INFO Model trainig started
+2025-10-21 16:26:53,594 61 root INFO Best model is founded

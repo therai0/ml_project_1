@@ -1,0 +1,4 @@
+2025-10-21 16:26:09,972 28 root INFO Enter the data ingestion conponent or method
+2025-10-21 16:26:09,975 32 root INFO Read the dataset as dataframe
+2025-10-21 16:26:09,978 37 root INFO Train test splited
+2025-10-21 16:26:09,982 43 root INFO Ingestion of data is completed
